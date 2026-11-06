@@ -1,0 +1,42 @@
+:root {
+  --bg: #0e0a09;
+  --bg-2: #1a1311;
+  --ink: #f5ede2;
+  --ink-soft: rgba(245, 237, 226, 0.72);
+  --ink-mute: rgba(245, 237, 226, 0.45);
+  --paper: #f1e8db;
+  --paper-2: #e6d9c6;
+  --dark: #1c1412;
+  --dark-soft: rgba(28, 20, 18, 0.72);
+  --gold: #d6a957;
+  --gold-2: #f0cf86;
+  --crimson: #a8252c;
+  --crimson-2: #c9383f;
+  --serif: 'Playfair Display', Georgia, serif;
+  --sans: 'Manrope', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+  background: #050403;
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
